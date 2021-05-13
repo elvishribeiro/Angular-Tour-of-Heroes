@@ -16,7 +16,7 @@ export class HeroService {
 
   getHeroes(): Observable<Hero[]> {
     const heroes = of(HEROES);
-    this.messageService.add('Hero Service: fetched heroes');
+    this.messageService.add('Hero Service: fetched heroes');  
     return heroes;
   }
 }
